@@ -1,0 +1,46 @@
+header{
+    background-color: #0074d9;
+}
+
+header{
+  display: grid;
+  grid-template-rows: 30px;
+  gap: 15px;
+  margin: 0
+}
+
+main{
+  display: grid;
+  grid-template-rows: 500px;
+  gap: 15px;
+  margin: 0
+}
+
+header a[href*='#'] {
+  color: white;
+}
+
+footer{
+  display: grid;
+  grid-template-rows: 40px;
+  gap: 15px;
+  margin: 0
+}
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+footer{
+    color: #fff;
+    background-color: #333;
+}
+
+main ul{
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
